@@ -1,3 +1,6 @@
+
+
+// tailwind.config.js
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -7,10 +10,12 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        primary: '#4F46E5',
+        secondary: '#14B8A6',
+        accent: '#F43F5E',
+        background: '#F3F4F6',
+        darkBackground: '#111827',
       },
     },
   },
